@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-gpu = ">=1.10.0,<=1.14.0"
+umap-learn = "*"
+visdom = "*"
+webrtcvad = "*"
+librosa = ">=0.5.1"
+matplotlib = ">=2.0.2"
+numpy = ">=1.14.0"
+scipy = ">=1.0.0"
+tqdm = "*"
+sounddevice = "*"
+unidecode = "*"
+inflect = "*"
+pyqt5 = "*"
+multiprocess = "*"
+numba = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
